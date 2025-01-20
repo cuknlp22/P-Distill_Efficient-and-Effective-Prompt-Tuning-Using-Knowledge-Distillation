@@ -1,0 +1,104 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "conll05_mentions_sample",
+  "dataset_size": 14434,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/cu-kairos/conll05_mentions_sample@afc2e7bd57b91e27df583e4bf9ac13c933558604/data/train-00000-of-00001.parquet": {
+      "num_bytes": 15187,
+      "checksum": null
+    },
+    "hf://datasets/cu-kairos/conll05_mentions_sample@afc2e7bd57b91e27df583e4bf9ac13c933558604/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 14963,
+      "checksum": null
+    }
+  },
+  "download_size": 30150,
+  "features": {
+    "mention_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "split": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "men_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "doc_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "start_char": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "end_char": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "mention_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gold_cluster": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "lemma": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence_tokens": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "marked_sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "marked_doc": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "srl_response": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 44584,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 9397,
+      "num_examples": 10,
+      "dataset_name": "conll05_mentions_sample"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 5037,
+      "num_examples": 5,
+      "dataset_name": "conll05_mentions_sample"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
